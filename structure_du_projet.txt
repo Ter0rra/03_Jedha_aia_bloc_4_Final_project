@@ -1,0 +1,22 @@
+wakee/
+├── src/
+│   ├── app.py                 # Interface + extraction quotidienne
+│   ├── cnn.py                 # Prédiction avec modèle actuel
+│   ├── llm.py                 # Prompt engineering
+│   └── training/
+│       ├── data_collector.py  # Extraction et stockage images
+│       ├── etl_pipeline.py    # Pipeline de préparation données
+│       ├── model_trainer.py   # Réentraînement
+│       └── model_evaluator.py # Comparaison modèles
+├── data/
+│   ├── raw_images/            # Images quotidiennes
+│   ├── labeled_data/          # Images avec labels
+│   └── processed/             # Données préparées pour training
+├── models/
+│   ├── current_model.onnx     # Modèle en production
+│   ├── candidate_model.onnx   # Nouveau modèle à tester
+│   └── archive/               # Anciens modèles
+├── dags/
+│   └── wakee_retrain_dag.py   # Pipeline Airflow hebdomadaire
+├── mlruns/                    # MLflow tracking
+└── requirements.txt
