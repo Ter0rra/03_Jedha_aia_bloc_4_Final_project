@@ -228,10 +228,15 @@ if start_button:
             if not ret:
                 st.warning("❌ Erreur de lecture de la caméra.")
                 break
-
+            
             frame_count += 1
             frame = cv2.flip(frame, 1)
             rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+           
+            #frame capture
+            timestamp = int(time.time() * 100)
+            cv2.imwrite(rf"temp\frame{timestamp}.jpg", frame)
+
 
             prev_frame_time, fps = showfps(prev_frame_time)
             emotion = get_response_from_cnn(rgb_frame)
