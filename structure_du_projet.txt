@@ -1,8 +1,15 @@
-wakee/
+wakee_lead/
+├── README.md
+├── licence
+├── .gitignore
+├── architecture_project.png
+├── structure_du_project.txt
 ├── src/
+│   ├── .env
 │   ├── app.py                 # Interface + extraction quotidienne
 │   ├── cnn.py                 # Prédiction avec modèle actuel
 │   ├── llm.py                 # Prompt engineering
+│   ├── temp/                  # frame daily
 │   └── training/
 │       ├── data_collector.py  # Extraction et stockage images
 │       ├── etl_pipeline.py    # Pipeline de préparation données
