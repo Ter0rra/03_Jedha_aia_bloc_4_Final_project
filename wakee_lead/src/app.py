@@ -237,7 +237,6 @@ if start_button:
             timestamp = int(time.time() * 100)
             cv2.imwrite(rf"temp\frame{timestamp}.jpg", frame)
 
-
             prev_frame_time, fps = showfps(prev_frame_time)
             emotion = get_response_from_cnn(rgb_frame)
             history.append(emotion)

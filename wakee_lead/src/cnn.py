@@ -11,7 +11,7 @@ def _load_model():
     global _session
     if _session is None:
         try:
-            _session = ort.InferenceSession(r"C:\Users\alber\Desktop\visual_studio_code\dossier_jedha\Jedha_Lead\08 - Final Projects\wakee_lead\models\daisee_model.onnx")
+            _session = ort.InferenceSession(r"..\models\daisee_model.onnx")
             # _session = ort.InferenceSession("daisee_model.onnx")
             # print("✅ Modèle ONNX chargé avec succès")
         except Exception as e:
