@@ -1,0 +1,1 @@
+mv *.jpg ../../data/raw_images/

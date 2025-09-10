@@ -1,0 +1,3 @@
+8080:Jenkins
+8081:Airflow
+8501:Wakee
