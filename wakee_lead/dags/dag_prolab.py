@@ -16,12 +16,8 @@ default_args = {
     'retries': 1
 }
 
-transform = transforms.Compose([
-        transforms.Resize(256),
-        transforms.CenterCrop(224)])
 
-
-def traiter_images(dossier_a, dossier_b, transforme):
+def traiter_images(dossier_a="data/raw_images", dossier_b = "data/processed"):
     """
     Applique une transformation sur toutes les images d'un dossier et les enregistre dans un autre dossier.
 
@@ -32,6 +28,11 @@ def traiter_images(dossier_a, dossier_b, transforme):
 
     # Extensions d'images communes
     extensions_valides = (".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".gif")
+    transform = transforms.Compose([
+            transforms.Resize(256),
+            transforms.CenterCrop(224)])
+    dossier_a = "data/raw_images"
+    dossier_b = "data/processed"
 
     for nom_fichier in os.listdir(dossier_a):
         if nom_fichier.lower().endswith(extensions_valides):
@@ -42,7 +43,7 @@ def traiter_images(dossier_a, dossier_b, transforme):
                 # Ouvrir l'image
                 with Image.open(chemin_entree) as img:
                     # Appliquer la transformation
-                    img_trans = transforme(img)
+                    img_trans = transform(img)
 
                     # Sauvegarder l'image transformée
                     img_trans.save(chemin_sortie)
@@ -66,7 +67,7 @@ with DAG(dag_id="Weekly_transformation", default_args=default_args, catchup=Fals
                                 cd ../../opt/airflow/
                                 ''')
     
-    weekly_transform = PythonOperator(task_id="weekly_transform", python_callable=traiter_images("data/raw_images", "data/processed", transform))
+    weekly_transform = PythonOperator(task_id="weekly_transform", python_callable=traiter_images)
                             
     end_dag = BashOperator(task_id="end_dag", bash_command="echo 'End!'")
 

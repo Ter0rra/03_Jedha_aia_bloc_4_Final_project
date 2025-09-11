@@ -14,7 +14,11 @@ with DAG(dag_id="Daily_img_transfer", default_args=default_args, catchup=False) 
     start_dag = BashOperator(task_id="start_dag", bash_command="echo 'Start!'")
 
     move_images = BashOperator(task_id="move_images", bash_command='''
+                                pwd
+                                ls
                                 cd ../../opt/airflow
+                                pwd
+                                ls
                                 mv src/temp/*.jpg data/raw_images
                                 ''')
                                
