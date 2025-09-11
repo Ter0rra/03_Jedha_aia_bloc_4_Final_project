@@ -1,0 +1,1559 @@
+[2025-09-11 13:34:31,237] {processor.py:153} INFO - Started process (PID=1743) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:34:31,238] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:34:31,239] {logging_mixin.py:115} INFO - [2025-09-11 13:34:31,239] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:34:31,254] {logging_mixin.py:115} INFO - [2025-09-11 13:34:31,253] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:34:31,255] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:34:31,269] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.034 seconds
+[2025-09-11 13:35:01,308] {processor.py:153} INFO - Started process (PID=1773) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:35:01,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:35:01,310] {logging_mixin.py:115} INFO - [2025-09-11 13:35:01,310] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:35:01,324] {logging_mixin.py:115} INFO - [2025-09-11 13:35:01,324] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:35:01,325] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:35:01,339] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.033 seconds
+[2025-09-11 13:35:31,429] {processor.py:153} INFO - Started process (PID=1794) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:35:31,429] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:35:31,430] {logging_mixin.py:115} INFO - [2025-09-11 13:35:31,430] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:35:31,439] {logging_mixin.py:115} INFO - [2025-09-11 13:35:31,439] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:35:31,440] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:35:31,455] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.029 seconds
+[2025-09-11 13:36:01,514] {processor.py:153} INFO - Started process (PID=1824) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:36:01,515] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:36:01,516] {logging_mixin.py:115} INFO - [2025-09-11 13:36:01,516] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:36:01,531] {logging_mixin.py:115} INFO - [2025-09-11 13:36:01,531] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:36:01,532] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:36:01,547] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.035 seconds
+[2025-09-11 13:36:31,691] {processor.py:153} INFO - Started process (PID=1845) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:36:31,692] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:36:31,694] {logging_mixin.py:115} INFO - [2025-09-11 13:36:31,694] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:36:31,716] {logging_mixin.py:115} INFO - [2025-09-11 13:36:31,715] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:36:31,717] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:36:31,733] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.047 seconds
+[2025-09-11 13:37:01,788] {processor.py:153} INFO - Started process (PID=1875) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:37:01,789] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:37:01,790] {logging_mixin.py:115} INFO - [2025-09-11 13:37:01,790] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:37:01,808] {logging_mixin.py:115} INFO - [2025-09-11 13:37:01,807] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:37:01,808] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:37:01,825] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.040 seconds
+[2025-09-11 13:37:31,913] {processor.py:153} INFO - Started process (PID=1896) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:37:31,913] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:37:31,914] {logging_mixin.py:115} INFO - [2025-09-11 13:37:31,914] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:37:31,924] {logging_mixin.py:115} INFO - [2025-09-11 13:37:31,924] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:37:31,925] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:37:31,939] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.029 seconds
+[2025-09-11 13:38:02,332] {processor.py:153} INFO - Started process (PID=1926) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:38:02,333] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:38:02,335] {logging_mixin.py:115} INFO - [2025-09-11 13:38:02,335] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:38:02,347] {logging_mixin.py:115} INFO - [2025-09-11 13:38:02,347] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:38:02,348] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:38:02,363] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.034 seconds
+[2025-09-11 13:38:32,873] {processor.py:153} INFO - Started process (PID=1947) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:38:32,874] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:38:32,874] {logging_mixin.py:115} INFO - [2025-09-11 13:38:32,874] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:38:32,883] {logging_mixin.py:115} INFO - [2025-09-11 13:38:32,883] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:38:32,885] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:38:32,899] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.029 seconds
+[2025-09-11 13:39:03,902] {processor.py:153} INFO - Started process (PID=1980) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:39:03,903] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:39:03,904] {logging_mixin.py:115} INFO - [2025-09-11 13:39:03,904] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:39:03,922] {logging_mixin.py:115} INFO - [2025-09-11 13:39:03,921] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:39:03,922] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:39:03,938] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.040 seconds
+[2025-09-11 13:39:35,997] {processor.py:153} INFO - Started process (PID=2008) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:39:35,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:39:35,999] {logging_mixin.py:115} INFO - [2025-09-11 13:39:35,999] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:39:36,038] {logging_mixin.py:115} INFO - [2025-09-11 13:39:36,038] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:39:36,039] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:39:36,052] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.058 seconds
+[2025-09-11 13:40:08,972] {processor.py:153} INFO - Started process (PID=2030) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:40:08,973] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:40:08,974] {logging_mixin.py:115} INFO - [2025-09-11 13:40:08,974] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:40:08,982] {logging_mixin.py:115} INFO - [2025-09-11 13:40:08,982] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:40:08,983] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:40:08,998] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.028 seconds
+[2025-09-11 13:40:41,894] {processor.py:153} INFO - Started process (PID=2059) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:40:41,895] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:40:41,896] {logging_mixin.py:115} INFO - [2025-09-11 13:40:41,896] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:40:41,905] {logging_mixin.py:115} INFO - [2025-09-11 13:40:41,905] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:40:41,906] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:40:41,922] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.029 seconds
+[2025-09-11 13:41:14,872] {processor.py:153} INFO - Started process (PID=2088) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:41:14,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:41:14,873] {logging_mixin.py:115} INFO - [2025-09-11 13:41:14,873] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:41:14,883] {logging_mixin.py:115} INFO - [2025-09-11 13:41:14,882] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:41:14,884] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:41:14,898] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.029 seconds
+[2025-09-11 13:41:46,941] {processor.py:153} INFO - Started process (PID=2117) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:41:46,942] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:41:46,943] {logging_mixin.py:115} INFO - [2025-09-11 13:41:46,943] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:41:46,957] {logging_mixin.py:115} INFO - [2025-09-11 13:41:46,956] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:41:46,958] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:41:46,974] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.036 seconds
+[2025-09-11 13:42:19,912] {processor.py:153} INFO - Started process (PID=2137) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:42:19,912] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:42:19,913] {logging_mixin.py:115} INFO - [2025-09-11 13:42:19,913] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:42:19,924] {logging_mixin.py:115} INFO - [2025-09-11 13:42:19,924] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:42:19,925] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:42:19,938] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.029 seconds
+[2025-09-11 13:42:52,864] {processor.py:153} INFO - Started process (PID=2166) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:42:52,864] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:42:52,865] {logging_mixin.py:115} INFO - [2025-09-11 13:42:52,865] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:42:52,875] {logging_mixin.py:115} INFO - [2025-09-11 13:42:52,875] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:42:52,876] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:42:52,891] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.029 seconds
+[2025-09-11 13:43:25,899] {processor.py:153} INFO - Started process (PID=2196) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:43:25,901] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:43:25,902] {logging_mixin.py:115} INFO - [2025-09-11 13:43:25,902] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:43:25,911] {logging_mixin.py:115} INFO - [2025-09-11 13:43:25,910] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:43:25,911] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:43:25,925] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.028 seconds
+[2025-09-11 13:43:57,839] {processor.py:153} INFO - Started process (PID=2224) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:43:57,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:43:57,841] {logging_mixin.py:115} INFO - [2025-09-11 13:43:57,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:43:57,857] {logging_mixin.py:115} INFO - [2025-09-11 13:43:57,856] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:43:57,858] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:43:57,879] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.045 seconds
+[2025-09-11 13:44:30,792] {processor.py:153} INFO - Started process (PID=2244) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:44:30,793] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:44:30,794] {logging_mixin.py:115} INFO - [2025-09-11 13:44:30,794] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:44:30,804] {logging_mixin.py:115} INFO - [2025-09-11 13:44:30,804] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:44:30,805] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:44:30,818] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.028 seconds
+[2025-09-11 13:45:03,697] {processor.py:153} INFO - Started process (PID=2273) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:45:03,698] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:45:03,699] {logging_mixin.py:115} INFO - [2025-09-11 13:45:03,699] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:45:03,716] {logging_mixin.py:115} INFO - [2025-09-11 13:45:03,716] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:45:03,717] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:45:03,731] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 13:45:36,645] {processor.py:153} INFO - Started process (PID=2302) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:45:36,646] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:45:36,647] {logging_mixin.py:115} INFO - [2025-09-11 13:45:36,646] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:45:36,658] {logging_mixin.py:115} INFO - [2025-09-11 13:45:36,657] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:45:36,658] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:45:36,672] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.030 seconds
+[2025-09-11 13:46:09,570] {processor.py:153} INFO - Started process (PID=2331) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:46:09,571] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:46:09,572] {logging_mixin.py:115} INFO - [2025-09-11 13:46:09,572] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:46:09,580] {logging_mixin.py:115} INFO - [2025-09-11 13:46:09,580] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:46:09,581] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:46:09,595] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.027 seconds
+[2025-09-11 13:46:41,654] {processor.py:153} INFO - Started process (PID=2351) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:46:41,655] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:46:41,656] {logging_mixin.py:115} INFO - [2025-09-11 13:46:41,656] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:46:41,664] {logging_mixin.py:115} INFO - [2025-09-11 13:46:41,664] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:46:41,665] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:46:41,678] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.026 seconds
+[2025-09-11 13:47:14,584] {processor.py:153} INFO - Started process (PID=2380) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:47:14,585] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:47:14,586] {logging_mixin.py:115} INFO - [2025-09-11 13:47:14,586] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:47:14,605] {logging_mixin.py:115} INFO - [2025-09-11 13:47:14,604] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:47:14,605] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:47:14,622] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.040 seconds
+[2025-09-11 13:47:47,544] {processor.py:153} INFO - Started process (PID=2409) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:47:47,546] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:47:47,547] {logging_mixin.py:115} INFO - [2025-09-11 13:47:47,547] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:47:47,556] {logging_mixin.py:115} INFO - [2025-09-11 13:47:47,555] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:47:47,556] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:47:47,572] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.030 seconds
+[2025-09-11 13:48:20,473] {processor.py:153} INFO - Started process (PID=2439) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:48:20,474] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:48:20,475] {logging_mixin.py:115} INFO - [2025-09-11 13:48:20,475] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:48:20,484] {logging_mixin.py:115} INFO - [2025-09-11 13:48:20,484] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:48:20,485] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:48:20,498] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.027 seconds
+[2025-09-11 13:48:53,394] {processor.py:153} INFO - Started process (PID=2459) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:48:53,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:48:53,396] {logging_mixin.py:115} INFO - [2025-09-11 13:48:53,395] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:48:53,403] {logging_mixin.py:115} INFO - [2025-09-11 13:48:53,403] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:48:53,404] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:48:53,418] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.025 seconds
+[2025-09-11 13:49:25,419] {processor.py:153} INFO - Started process (PID=2488) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:49:25,420] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:49:25,421] {logging_mixin.py:115} INFO - [2025-09-11 13:49:25,421] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:49:25,430] {logging_mixin.py:115} INFO - [2025-09-11 13:49:25,429] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:49:25,430] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:49:25,444] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.027 seconds
+[2025-09-11 13:49:58,426] {processor.py:153} INFO - Started process (PID=2517) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:49:58,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:49:58,427] {logging_mixin.py:115} INFO - [2025-09-11 13:49:58,427] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:49:58,435] {logging_mixin.py:115} INFO - [2025-09-11 13:49:58,434] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:49:58,435] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:49:58,451] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.027 seconds
+[2025-09-11 13:50:31,342] {processor.py:153} INFO - Started process (PID=2546) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:50:31,343] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:50:31,344] {logging_mixin.py:115} INFO - [2025-09-11 13:50:31,344] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:50:31,352] {logging_mixin.py:115} INFO - [2025-09-11 13:50:31,352] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:50:31,353] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:50:31,368] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.028 seconds
+[2025-09-11 13:51:04,273] {processor.py:153} INFO - Started process (PID=2566) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:51:04,274] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:51:04,274] {logging_mixin.py:115} INFO - [2025-09-11 13:51:04,274] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:51:04,286] {logging_mixin.py:115} INFO - [2025-09-11 13:51:04,285] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:51:04,287] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:51:04,300] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.028 seconds
+[2025-09-11 13:51:36,305] {processor.py:153} INFO - Started process (PID=2594) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:51:36,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:51:36,308] {logging_mixin.py:115} INFO - [2025-09-11 13:51:36,308] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:51:36,319] {logging_mixin.py:115} INFO - [2025-09-11 13:51:36,318] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:51:36,319] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:51:36,333] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.031 seconds
+[2025-09-11 13:52:09,216] {processor.py:153} INFO - Started process (PID=2624) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:52:09,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:52:09,217] {logging_mixin.py:115} INFO - [2025-09-11 13:52:09,217] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:52:09,225] {logging_mixin.py:115} INFO - [2025-09-11 13:52:09,224] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:52:09,225] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:52:09,241] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.027 seconds
+[2025-09-11 13:52:42,138] {processor.py:153} INFO - Started process (PID=2653) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:52:42,139] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:52:42,141] {logging_mixin.py:115} INFO - [2025-09-11 13:52:42,141] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:52:42,166] {logging_mixin.py:115} INFO - [2025-09-11 13:52:42,166] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:52:42,167] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:52:42,184] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.049 seconds
+[2025-09-11 13:53:15,084] {processor.py:153} INFO - Started process (PID=2673) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:53:15,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:53:15,085] {logging_mixin.py:115} INFO - [2025-09-11 13:53:15,085] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:53:15,094] {logging_mixin.py:115} INFO - [2025-09-11 13:53:15,093] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:53:15,094] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:53:15,109] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.028 seconds
+[2025-09-11 13:53:48,007] {processor.py:153} INFO - Started process (PID=2703) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:53:48,009] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:53:48,009] {logging_mixin.py:115} INFO - [2025-09-11 13:53:48,009] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:53:48,019] {logging_mixin.py:115} INFO - [2025-09-11 13:53:48,018] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:53:48,019] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:53:48,033] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.028 seconds
+[2025-09-11 13:54:20,099] {processor.py:153} INFO - Started process (PID=2732) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:54:20,099] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:54:20,100] {logging_mixin.py:115} INFO - [2025-09-11 13:54:20,100] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:54:20,109] {logging_mixin.py:115} INFO - [2025-09-11 13:54:20,108] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:54:20,109] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:54:20,124] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.027 seconds
+[2025-09-11 13:54:53,070] {processor.py:153} INFO - Started process (PID=2761) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:54:53,073] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:54:53,073] {logging_mixin.py:115} INFO - [2025-09-11 13:54:53,073] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:54:53,083] {logging_mixin.py:115} INFO - [2025-09-11 13:54:53,082] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 31
+    def process_img(img):
+      ^
+IndentationError: expected an indented block
+[2025-09-11 13:54:53,083] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:54:53,099] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.031 seconds
+[2025-09-11 13:55:06,193] {processor.py:153} INFO - Started process (PID=2772) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:55:06,194] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:55:06,195] {logging_mixin.py:115} INFO - [2025-09-11 13:55:06,195] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:55:06,225] {logging_mixin.py:115} INFO - [2025-09-11 13:55:06,223] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:55:06,226] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:55:06,244] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.053 seconds
+[2025-09-11 13:55:37,114] {processor.py:153} INFO - Started process (PID=2802) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:55:37,115] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:55:37,116] {logging_mixin.py:115} INFO - [2025-09-11 13:55:37,116] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:55:37,145] {logging_mixin.py:115} INFO - [2025-09-11 13:55:37,141] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:55:37,146] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:55:37,161] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.049 seconds
+[2025-09-11 13:56:08,123] {processor.py:153} INFO - Started process (PID=2822) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:56:08,126] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:56:08,127] {logging_mixin.py:115} INFO - [2025-09-11 13:56:08,126] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:56:08,225] {logging_mixin.py:115} INFO - [2025-09-11 13:56:08,215] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:56:08,228] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:56:08,244] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.125 seconds
+[2025-09-11 13:56:39,111] {processor.py:153} INFO - Started process (PID=2851) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:56:39,112] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:56:39,113] {logging_mixin.py:115} INFO - [2025-09-11 13:56:39,112] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:56:39,129] {logging_mixin.py:115} INFO - [2025-09-11 13:56:39,126] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:56:39,130] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:56:39,144] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.035 seconds
+[2025-09-11 13:56:45,143] {processor.py:153} INFO - Started process (PID=2852) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:56:45,144] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:56:45,145] {logging_mixin.py:115} INFO - [2025-09-11 13:56:45,145] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:56:45,173] {logging_mixin.py:115} INFO - [2025-09-11 13:56:45,171] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:56:45,174] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:56:45,187] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.046 seconds
+[2025-09-11 13:57:15,274] {processor.py:153} INFO - Started process (PID=2881) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:57:15,275] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:57:15,276] {logging_mixin.py:115} INFO - [2025-09-11 13:57:15,276] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:57:15,302] {logging_mixin.py:115} INFO - [2025-09-11 13:57:15,296] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:57:15,304] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:57:15,321] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.050 seconds
+[2025-09-11 13:57:46,216] {processor.py:153} INFO - Started process (PID=2901) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:57:46,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:57:46,217] {logging_mixin.py:115} INFO - [2025-09-11 13:57:46,217] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:57:46,236] {logging_mixin.py:115} INFO - [2025-09-11 13:57:46,233] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:57:46,236] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:57:46,250] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 13:58:16,399] {processor.py:153} INFO - Started process (PID=2930) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:58:16,400] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:58:16,400] {logging_mixin.py:115} INFO - [2025-09-11 13:58:16,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:58:16,456] {logging_mixin.py:115} INFO - [2025-09-11 13:58:16,451] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:58:16,458] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:58:16,480] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.084 seconds
+[2025-09-11 13:58:47,392] {processor.py:153} INFO - Started process (PID=2957) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:58:47,393] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:58:47,394] {logging_mixin.py:115} INFO - [2025-09-11 13:58:47,394] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:58:47,420] {logging_mixin.py:115} INFO - [2025-09-11 13:58:47,416] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:58:47,422] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:58:47,440] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.053 seconds
+[2025-09-11 13:59:17,480] {processor.py:153} INFO - Started process (PID=2979) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:59:17,481] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:59:17,481] {logging_mixin.py:115} INFO - [2025-09-11 13:59:17,481] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:59:17,495] {logging_mixin.py:115} INFO - [2025-09-11 13:59:17,493] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:59:17,496] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:59:17,509] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.032 seconds
+[2025-09-11 13:59:48,385] {processor.py:153} INFO - Started process (PID=3007) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:59:48,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 13:59:48,386] {logging_mixin.py:115} INFO - [2025-09-11 13:59:48,386] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:59:48,405] {logging_mixin.py:115} INFO - [2025-09-11 13:59:48,400] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 13:59:48,405] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 13:59:48,419] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.036 seconds
+[2025-09-11 14:00:20,308] {processor.py:153} INFO - Started process (PID=3027) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:00:20,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:00:20,309] {logging_mixin.py:115} INFO - [2025-09-11 14:00:20,309] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:00:20,328] {logging_mixin.py:115} INFO - [2025-09-11 14:00:20,323] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:00:20,330] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:00:20,344] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.038 seconds
+[2025-09-11 14:00:53,245] {processor.py:153} INFO - Started process (PID=3056) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:00:53,246] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:00:53,246] {logging_mixin.py:115} INFO - [2025-09-11 14:00:53,246] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:00:53,271] {logging_mixin.py:115} INFO - [2025-09-11 14:00:53,268] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:00:53,272] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:00:53,286] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.043 seconds
+[2025-09-11 14:01:26,216] {processor.py:153} INFO - Started process (PID=3085) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:01:26,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:01:26,218] {logging_mixin.py:115} INFO - [2025-09-11 14:01:26,218] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:01:26,234] {logging_mixin.py:115} INFO - [2025-09-11 14:01:26,232] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:01:26,236] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:01:26,251] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:01:59,159] {processor.py:153} INFO - Started process (PID=3114) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:01:59,160] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:01:59,160] {logging_mixin.py:115} INFO - [2025-09-11 14:01:59,160] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:01:59,184] {logging_mixin.py:115} INFO - [2025-09-11 14:01:59,180] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:01:59,185] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:01:59,199] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.043 seconds
+[2025-09-11 14:02:32,104] {processor.py:153} INFO - Started process (PID=3134) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:02:32,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:02:32,106] {logging_mixin.py:115} INFO - [2025-09-11 14:02:32,106] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:02:32,131] {logging_mixin.py:115} INFO - [2025-09-11 14:02:32,120] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:02:32,132] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:02:32,147] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.045 seconds
+[2025-09-11 14:03:04,058] {processor.py:153} INFO - Started process (PID=3163) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:03:04,059] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:03:04,060] {logging_mixin.py:115} INFO - [2025-09-11 14:03:04,060] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:03:04,077] {logging_mixin.py:115} INFO - [2025-09-11 14:03:04,074] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:03:04,078] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:03:04,094] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.038 seconds
+[2025-09-11 14:03:37,001] {processor.py:153} INFO - Started process (PID=3192) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:03:37,002] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:03:37,003] {logging_mixin.py:115} INFO - [2025-09-11 14:03:37,003] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:03:37,023] {logging_mixin.py:115} INFO - [2025-09-11 14:03:37,020] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:03:37,024] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:03:37,039] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.039 seconds
+[2025-09-11 14:04:09,942] {processor.py:153} INFO - Started process (PID=3221) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:04:09,942] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:04:09,943] {logging_mixin.py:115} INFO - [2025-09-11 14:04:09,943] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:04:09,960] {logging_mixin.py:115} INFO - [2025-09-11 14:04:09,957] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:04:09,961] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:04:09,973] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.034 seconds
+[2025-09-11 14:04:42,936] {processor.py:153} INFO - Started process (PID=3241) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:04:42,937] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:04:42,937] {logging_mixin.py:115} INFO - [2025-09-11 14:04:42,937] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:04:42,956] {logging_mixin.py:115} INFO - [2025-09-11 14:04:42,953] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:04:42,957] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:04:42,970] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:05:15,874] {processor.py:153} INFO - Started process (PID=3270) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:05:15,876] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:05:15,877] {logging_mixin.py:115} INFO - [2025-09-11 14:05:15,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:05:15,912] {logging_mixin.py:115} INFO - [2025-09-11 14:05:15,906] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:05:15,914] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:05:15,938] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.066 seconds
+[2025-09-11 14:05:47,838] {processor.py:153} INFO - Started process (PID=3299) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:05:47,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:05:47,840] {logging_mixin.py:115} INFO - [2025-09-11 14:05:47,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:05:47,872] {logging_mixin.py:115} INFO - [2025-09-11 14:05:47,868] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:05:47,874] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:05:47,889] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.054 seconds
+[2025-09-11 14:06:20,854] {processor.py:153} INFO - Started process (PID=3328) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:06:20,855] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:06:20,856] {logging_mixin.py:115} INFO - [2025-09-11 14:06:20,856] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:06:20,872] {logging_mixin.py:115} INFO - [2025-09-11 14:06:20,869] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:06:20,873] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:06:20,889] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:06:53,795] {processor.py:153} INFO - Started process (PID=3348) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:06:53,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:06:53,796] {logging_mixin.py:115} INFO - [2025-09-11 14:06:53,796] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:06:53,811] {logging_mixin.py:115} INFO - [2025-09-11 14:06:53,807] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:06:53,811] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:06:53,828] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.035 seconds
+[2025-09-11 14:07:26,754] {processor.py:153} INFO - Started process (PID=3377) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:07:26,758] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:07:26,759] {logging_mixin.py:115} INFO - [2025-09-11 14:07:26,759] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:07:26,789] {logging_mixin.py:115} INFO - [2025-09-11 14:07:26,774] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:07:26,792] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:07:26,807] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.056 seconds
+[2025-09-11 14:07:57,110] {processor.py:153} INFO - Started process (PID=3407) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:07:57,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:07:57,114] {logging_mixin.py:115} INFO - [2025-09-11 14:07:57,114] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:07:57,135] {logging_mixin.py:115} INFO - [2025-09-11 14:07:57,132] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:07:57,136] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:07:57,149] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.042 seconds
+[2025-09-11 14:08:27,281] {processor.py:153} INFO - Started process (PID=3428) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:08:27,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:08:27,283] {logging_mixin.py:115} INFO - [2025-09-11 14:08:27,283] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:08:27,297] {logging_mixin.py:115} INFO - [2025-09-11 14:08:27,294] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:08:27,297] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:08:27,311] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.032 seconds
+[2025-09-11 14:08:57,827] {processor.py:153} INFO - Started process (PID=3456) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:08:57,828] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:08:57,828] {logging_mixin.py:115} INFO - [2025-09-11 14:08:57,828] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:08:57,854] {logging_mixin.py:115} INFO - [2025-09-11 14:08:57,850] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:08:57,855] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:08:57,870] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.046 seconds
+[2025-09-11 14:09:28,763] {processor.py:153} INFO - Started process (PID=3485) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:09:28,764] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:09:28,765] {logging_mixin.py:115} INFO - [2025-09-11 14:09:28,765] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:09:28,792] {logging_mixin.py:115} INFO - [2025-09-11 14:09:28,787] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:09:28,794] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:09:28,809] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.049 seconds
+[2025-09-11 14:09:59,746] {processor.py:153} INFO - Started process (PID=3505) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:09:59,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:09:59,747] {logging_mixin.py:115} INFO - [2025-09-11 14:09:59,747] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:09:59,765] {logging_mixin.py:115} INFO - [2025-09-11 14:09:59,761] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:09:59,766] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:09:59,778] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.036 seconds
+[2025-09-11 14:10:30,058] {processor.py:153} INFO - Started process (PID=3535) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:10:30,059] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:10:30,060] {logging_mixin.py:115} INFO - [2025-09-11 14:10:30,060] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:10:30,090] {logging_mixin.py:115} INFO - [2025-09-11 14:10:30,085] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:10:30,092] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:10:30,106] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.051 seconds
+[2025-09-11 14:11:00,434] {processor.py:153} INFO - Started process (PID=3555) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:11:00,435] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:11:00,436] {logging_mixin.py:115} INFO - [2025-09-11 14:11:00,436] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:11:00,456] {logging_mixin.py:115} INFO - [2025-09-11 14:11:00,451] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:11:00,460] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:11:00,473] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.041 seconds
+[2025-09-11 14:11:31,357] {processor.py:153} INFO - Started process (PID=3583) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:11:31,358] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:11:31,359] {logging_mixin.py:115} INFO - [2025-09-11 14:11:31,359] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:11:31,375] {logging_mixin.py:115} INFO - [2025-09-11 14:11:31,373] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:11:31,376] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:11:31,388] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.033 seconds
+[2025-09-11 14:12:02,270] {processor.py:153} INFO - Started process (PID=3612) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:12:02,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:12:02,272] {logging_mixin.py:115} INFO - [2025-09-11 14:12:02,272] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:12:02,299] {logging_mixin.py:115} INFO - [2025-09-11 14:12:02,297] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:12:02,300] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:12:02,317] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.049 seconds
+[2025-09-11 14:12:33,209] {processor.py:153} INFO - Started process (PID=3632) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:12:33,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:12:33,211] {logging_mixin.py:115} INFO - [2025-09-11 14:12:33,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:12:33,227] {logging_mixin.py:115} INFO - [2025-09-11 14:12:33,224] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:12:33,228] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:12:33,242] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.035 seconds
+[2025-09-11 14:13:04,110] {processor.py:153} INFO - Started process (PID=3661) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:13:04,111] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:13:04,111] {logging_mixin.py:115} INFO - [2025-09-11 14:13:04,111] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:13:04,129] {logging_mixin.py:115} INFO - [2025-09-11 14:13:04,126] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:13:04,130] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:13:04,144] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.036 seconds
+[2025-09-11 14:13:35,075] {processor.py:153} INFO - Started process (PID=3681) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:13:35,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:13:35,077] {logging_mixin.py:115} INFO - [2025-09-11 14:13:35,077] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:13:35,110] {logging_mixin.py:115} INFO - [2025-09-11 14:13:35,105] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:13:35,112] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:13:35,129] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.057 seconds
+[2025-09-11 14:14:06,012] {processor.py:153} INFO - Started process (PID=3710) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:14:06,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:14:06,014] {logging_mixin.py:115} INFO - [2025-09-11 14:14:06,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:14:06,031] {logging_mixin.py:115} INFO - [2025-09-11 14:14:06,029] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:14:06,032] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:14:06,045] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.035 seconds
+[2025-09-11 14:14:36,945] {processor.py:153} INFO - Started process (PID=3739) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:14:36,947] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:14:36,948] {logging_mixin.py:115} INFO - [2025-09-11 14:14:36,948] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:14:36,978] {logging_mixin.py:115} INFO - [2025-09-11 14:14:36,973] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:14:36,979] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:14:36,994] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.051 seconds
+[2025-09-11 14:15:07,098] {processor.py:153} INFO - Started process (PID=3759) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:15:07,099] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:15:07,099] {logging_mixin.py:115} INFO - [2025-09-11 14:15:07,099] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:15:07,117] {logging_mixin.py:115} INFO - [2025-09-11 14:15:07,115] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:15:07,118] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:15:07,133] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:15:37,181] {processor.py:153} INFO - Started process (PID=3788) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:15:37,182] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:15:37,183] {logging_mixin.py:115} INFO - [2025-09-11 14:15:37,183] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:15:37,199] {logging_mixin.py:115} INFO - [2025-09-11 14:15:37,196] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:15:37,199] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:15:37,215] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.036 seconds
+[2025-09-11 14:16:08,126] {processor.py:153} INFO - Started process (PID=3808) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:16:08,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:16:08,127] {logging_mixin.py:115} INFO - [2025-09-11 14:16:08,127] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:16:08,144] {logging_mixin.py:115} INFO - [2025-09-11 14:16:08,141] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:16:08,144] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:16:08,160] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.036 seconds
+[2025-09-11 14:16:41,067] {processor.py:153} INFO - Started process (PID=3837) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:16:41,067] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:16:41,068] {logging_mixin.py:115} INFO - [2025-09-11 14:16:41,068] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:16:41,099] {logging_mixin.py:115} INFO - [2025-09-11 14:16:41,095] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:16:41,100] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:16:41,115] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.051 seconds
+[2025-09-11 14:17:14,038] {processor.py:153} INFO - Started process (PID=3866) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:17:14,039] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:17:14,039] {logging_mixin.py:115} INFO - [2025-09-11 14:17:14,039] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:17:14,056] {logging_mixin.py:115} INFO - [2025-09-11 14:17:14,053] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:17:14,057] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:17:14,069] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.034 seconds
+[2025-09-11 14:17:46,059] {processor.py:153} INFO - Started process (PID=3895) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:17:46,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:17:46,061] {logging_mixin.py:115} INFO - [2025-09-11 14:17:46,061] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:17:46,078] {logging_mixin.py:115} INFO - [2025-09-11 14:17:46,075] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:17:46,079] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:17:46,093] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.036 seconds
+[2025-09-11 14:18:18,992] {processor.py:153} INFO - Started process (PID=3915) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:18:18,993] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:18:18,993] {logging_mixin.py:115} INFO - [2025-09-11 14:18:18,993] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:18:19,009] {logging_mixin.py:115} INFO - [2025-09-11 14:18:19,006] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:18:19,010] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:18:19,024] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.034 seconds
+[2025-09-11 14:18:51,926] {processor.py:153} INFO - Started process (PID=3943) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:18:51,927] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:18:51,928] {logging_mixin.py:115} INFO - [2025-09-11 14:18:51,928] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:18:51,944] {logging_mixin.py:115} INFO - [2025-09-11 14:18:51,941] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:18:51,946] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:18:51,958] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.035 seconds
+[2025-09-11 14:19:24,867] {processor.py:153} INFO - Started process (PID=3971) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:19:24,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:19:24,869] {logging_mixin.py:115} INFO - [2025-09-11 14:19:24,868] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:19:24,891] {logging_mixin.py:115} INFO - [2025-09-11 14:19:24,885] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:19:24,892] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:19:24,908] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.043 seconds
+[2025-09-11 14:19:57,800] {processor.py:153} INFO - Started process (PID=4000) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:19:57,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:19:57,801] {logging_mixin.py:115} INFO - [2025-09-11 14:19:57,801] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:19:57,818] {logging_mixin.py:115} INFO - [2025-09-11 14:19:57,815] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:19:57,820] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:19:57,832] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.034 seconds
+[2025-09-11 14:20:29,725] {processor.py:153} INFO - Started process (PID=4020) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:20:29,726] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:20:29,726] {logging_mixin.py:115} INFO - [2025-09-11 14:20:29,726] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:20:29,742] {logging_mixin.py:115} INFO - [2025-09-11 14:20:29,739] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:20:29,743] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:20:29,756] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.033 seconds
+[2025-09-11 14:21:02,634] {processor.py:153} INFO - Started process (PID=4049) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:21:02,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:21:02,636] {logging_mixin.py:115} INFO - [2025-09-11 14:21:02,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:21:02,652] {logging_mixin.py:115} INFO - [2025-09-11 14:21:02,649] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:21:02,653] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:21:02,669] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:21:35,619] {processor.py:153} INFO - Started process (PID=4078) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:21:35,622] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:21:35,623] {logging_mixin.py:115} INFO - [2025-09-11 14:21:35,623] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:21:35,649] {logging_mixin.py:115} INFO - [2025-09-11 14:21:35,645] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:21:35,650] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:21:35,665] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.048 seconds
+[2025-09-11 14:22:08,582] {processor.py:153} INFO - Started process (PID=4107) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:22:08,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:22:08,584] {logging_mixin.py:115} INFO - [2025-09-11 14:22:08,584] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:22:08,602] {logging_mixin.py:115} INFO - [2025-09-11 14:22:08,598] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:22:08,603] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:22:08,617] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:22:41,569] {processor.py:153} INFO - Started process (PID=4127) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:22:41,570] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:22:41,571] {logging_mixin.py:115} INFO - [2025-09-11 14:22:41,570] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:22:41,588] {logging_mixin.py:115} INFO - [2025-09-11 14:22:41,585] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:22:41,589] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:22:41,603] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.036 seconds
+[2025-09-11 14:23:13,489] {processor.py:153} INFO - Started process (PID=4156) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:23:13,489] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:23:13,490] {logging_mixin.py:115} INFO - [2025-09-11 14:23:13,490] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:23:13,507] {logging_mixin.py:115} INFO - [2025-09-11 14:23:13,505] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:23:13,509] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:23:13,525] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.039 seconds
+[2025-09-11 14:23:46,418] {processor.py:153} INFO - Started process (PID=4185) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:23:46,419] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:23:46,421] {logging_mixin.py:115} INFO - [2025-09-11 14:23:46,421] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:23:46,440] {logging_mixin.py:115} INFO - [2025-09-11 14:23:46,436] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:23:46,441] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:23:46,453] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:24:19,336] {processor.py:153} INFO - Started process (PID=4214) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:24:19,337] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:24:19,338] {logging_mixin.py:115} INFO - [2025-09-11 14:24:19,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:24:19,354] {logging_mixin.py:115} INFO - [2025-09-11 14:24:19,351] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:24:19,355] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:24:19,370] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:24:52,296] {processor.py:153} INFO - Started process (PID=4241) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:24:52,297] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:24:52,297] {logging_mixin.py:115} INFO - [2025-09-11 14:24:52,297] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:24:52,316] {logging_mixin.py:115} INFO - [2025-09-11 14:24:52,312] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:24:52,317] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:24:52,331] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:25:25,221] {processor.py:153} INFO - Started process (PID=4263) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:25:25,222] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:25:25,223] {logging_mixin.py:115} INFO - [2025-09-11 14:25:25,223] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:25:25,245] {logging_mixin.py:115} INFO - [2025-09-11 14:25:25,241] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:25:25,246] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:25:25,261] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.043 seconds
+[2025-09-11 14:25:31,310] {processor.py:153} INFO - Started process (PID=4274) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:25:31,311] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:25:31,312] {logging_mixin.py:115} INFO - [2025-09-11 14:25:31,312] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:25:31,365] {logging_mixin.py:115} INFO - [2025-09-11 14:25:31,362] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:25:31,367] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:25:31,382] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.073 seconds
+[2025-09-11 14:26:01,470] {processor.py:153} INFO - Started process (PID=4293) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:26:01,472] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:26:01,475] {logging_mixin.py:115} INFO - [2025-09-11 14:26:01,475] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:26:01,517] {logging_mixin.py:115} INFO - [2025-09-11 14:26:01,513] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:26:01,518] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:26:01,534] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.066 seconds
+[2025-09-11 14:26:32,407] {processor.py:153} INFO - Started process (PID=4322) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:26:32,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:26:32,409] {logging_mixin.py:115} INFO - [2025-09-11 14:26:32,409] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:26:32,425] {logging_mixin.py:115} INFO - [2025-09-11 14:26:32,422] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:26:32,426] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:26:32,441] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.037 seconds
+[2025-09-11 14:27:03,317] {processor.py:153} INFO - Started process (PID=4350) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:27:03,319] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:27:03,320] {logging_mixin.py:115} INFO - [2025-09-11 14:27:03,320] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:27:03,347] {logging_mixin.py:115} INFO - [2025-09-11 14:27:03,343] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:27:03,349] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:27:03,366] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.051 seconds
+[2025-09-11 14:27:59,309] {processor.py:153} INFO - Started process (PID=49) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:27:59,311] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-11 14:27:59,313] {logging_mixin.py:115} INFO - [2025-09-11 14:27:59,313] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:27:59,381] {logging_mixin.py:115} INFO - [2025-09-11 14:27:59,377] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_prolab.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_prolab.py", line 5, in <module>
+    import torchvision.transforms.v2 as transforms
+ModuleNotFoundError: No module named 'torchvision'
+[2025-09-11 14:27:59,383] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-11 14:27:59,417] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_prolab.py took 0.118 seconds
