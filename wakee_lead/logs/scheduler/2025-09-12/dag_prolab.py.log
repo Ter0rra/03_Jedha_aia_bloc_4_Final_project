@@ -369,3 +369,38 @@
 [2025-09-12T00:28:33.342+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:28:33.342+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-12T00:28:33.359+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:28:33.359+0000] {dag.py:4180} INFO - Setting next_dagrun for Weekly_transformation to 2025-09-11 00:00:00+00:00, run_after=2025-09-12 00:00:00+00:00
 [2025-09-12T00:28:33.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_prolab.py took 2.381 seconds
+[2025-09-12T08:16:59.355+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:16:59.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-12T08:16:59.358+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:16:59.358+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:17:01.571+0000] {processor.py:925} INFO - DAG(s) 'Weekly_transformation' retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:17:01.587+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:17:01.587+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T08:17:01.602+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:17:01.602+0000] {dag.py:4180} INFO - Setting next_dagrun for Weekly_transformation to 2025-09-12 00:00:00+00:00, run_after=2025-09-13 00:00:00+00:00
+[2025-09-12T08:17:01.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_prolab.py took 2.265 seconds
+[2025-09-12T08:17:32.059+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:17:32.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-12T08:17:32.062+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:17:32.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:17:34.285+0000] {processor.py:925} INFO - DAG(s) 'Weekly_transformation' retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:17:34.300+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:17:34.299+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T08:17:34.315+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:17:34.315+0000] {dag.py:4180} INFO - Setting next_dagrun for Weekly_transformation to 2025-09-12 00:00:00+00:00, run_after=2025-09-13 00:00:00+00:00
+[2025-09-12T08:17:34.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_prolab.py took 2.274 seconds
+[2025-09-12T08:18:04.459+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:18:04.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-12T08:18:04.462+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:18:04.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:18:06.668+0000] {processor.py:925} INFO - DAG(s) 'Weekly_transformation' retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:18:06.684+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:18:06.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T08:18:06.700+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:18:06.700+0000] {dag.py:4180} INFO - Setting next_dagrun for Weekly_transformation to 2025-09-12 00:00:00+00:00, run_after=2025-09-13 00:00:00+00:00
+[2025-09-12T08:18:06.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_prolab.py took 2.261 seconds
+[2025-09-12T08:18:36.812+0000] {processor.py:186} INFO - Started process (PID=227) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:18:36.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-12T08:18:36.816+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:18:36.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:18:39.048+0000] {processor.py:925} INFO - DAG(s) 'Weekly_transformation' retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:18:39.065+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:18:39.064+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T08:18:39.079+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:18:39.079+0000] {dag.py:4180} INFO - Setting next_dagrun for Weekly_transformation to 2025-09-12 00:00:00+00:00, run_after=2025-09-13 00:00:00+00:00
+[2025-09-12T08:18:39.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_prolab.py took 2.286 seconds
+[2025-09-12T08:19:09.456+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:19:09.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_prolab.py for tasks to queue
+[2025-09-12T08:19:09.459+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:19:09.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:19:11.582+0000] {processor.py:925} INFO - DAG(s) 'Weekly_transformation' retrieved from /opt/airflow/dags/dag_prolab.py
+[2025-09-12T08:19:11.600+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:19:11.600+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T08:19:11.614+0000] {logging_mixin.py:190} INFO - [2025-09-12T08:19:11.614+0000] {dag.py:4180} INFO - Setting next_dagrun for Weekly_transformation to 2025-09-12 00:00:00+00:00, run_after=2025-09-13 00:00:00+00:00
+[2025-09-12T08:19:11.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_prolab.py took 2.180 seconds
