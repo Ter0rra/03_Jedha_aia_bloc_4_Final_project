@@ -257,3 +257,143 @@
 [2025-09-12T00:18:44.580+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:18:44.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-12T00:18:44.607+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:18:44.607+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:18:44.501113+00:00, run_after=2025-09-13 00:18:44.501113+00:00
 [2025-09-12T00:18:44.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.155 seconds
+[2025-09-12T00:19:15.019+0000] {processor.py:186} INFO - Started process (PID=4407) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:19:15.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:19:15.026+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:19:15.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:19:15.125+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:19:15.213+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:19:15.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:19:15.228+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:19:15.228+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:19:15.118022+00:00, run_after=2025-09-13 00:19:15.118022+00:00
+[2025-09-12T00:19:15.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.245 seconds
+[2025-09-12T00:19:45.505+0000] {processor.py:186} INFO - Started process (PID=4416) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:19:45.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:19:45.509+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:19:45.509+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:19:45.525+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:19:45.610+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:19:45.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:19:45.626+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:19:45.625+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:19:45.521618+00:00, run_after=2025-09-13 00:19:45.521618+00:00
+[2025-09-12T00:19:45.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.142 seconds
+[2025-09-12T00:20:15.969+0000] {processor.py:186} INFO - Started process (PID=4424) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:20:15.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:20:15.972+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:20:15.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:20:15.986+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:20:16.058+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:20:16.058+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:20:16.075+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:20:16.075+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:20:15.982208+00:00, run_after=2025-09-13 00:20:15.982208+00:00
+[2025-09-12T00:20:16.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.129 seconds
+[2025-09-12T00:20:46.197+0000] {processor.py:186} INFO - Started process (PID=4433) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:20:46.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:20:46.200+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:20:46.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:20:46.217+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:20:46.294+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:20:46.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:20:46.309+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:20:46.309+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:20:46.212826+00:00, run_after=2025-09-13 00:20:46.212826+00:00
+[2025-09-12T00:20:46.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.132 seconds
+[2025-09-12T00:21:16.578+0000] {processor.py:186} INFO - Started process (PID=4442) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:21:16.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:21:16.581+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:21:16.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:21:16.596+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:21:16.681+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:21:16.680+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:21:16.696+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:21:16.696+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:21:16.592369+00:00, run_after=2025-09-13 00:21:16.592369+00:00
+[2025-09-12T00:21:16.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.138 seconds
+[2025-09-12T00:21:47.045+0000] {processor.py:186} INFO - Started process (PID=4451) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:21:47.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:21:47.048+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:21:47.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:21:47.063+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:21:47.142+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:21:47.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:21:47.157+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:21:47.157+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:21:47.059438+00:00, run_after=2025-09-13 00:21:47.059438+00:00
+[2025-09-12T00:21:47.171+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.131 seconds
+[2025-09-12T00:22:17.442+0000] {processor.py:186} INFO - Started process (PID=4460) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:22:17.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:22:17.445+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:22:17.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:22:17.460+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:22:17.539+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:22:17.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:22:17.554+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:22:17.554+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:22:17.456452+00:00, run_after=2025-09-13 00:22:17.456452+00:00
+[2025-09-12T00:22:17.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.132 seconds
+[2025-09-12T00:22:47.880+0000] {processor.py:186} INFO - Started process (PID=4469) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:22:47.881+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:22:47.883+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:22:47.883+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:22:47.899+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:22:47.979+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:22:47.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:22:47.993+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:22:47.993+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:22:47.894719+00:00, run_after=2025-09-13 00:22:47.894719+00:00
+[2025-09-12T00:22:48.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.136 seconds
+[2025-09-12T00:23:18.295+0000] {processor.py:186} INFO - Started process (PID=4478) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:23:18.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:23:18.299+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:23:18.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:23:18.314+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:23:18.400+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:23:18.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:23:18.416+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:23:18.416+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:23:18.310456+00:00, run_after=2025-09-13 00:23:18.310456+00:00
+[2025-09-12T00:23:18.438+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.148 seconds
+[2025-09-12T00:23:48.745+0000] {processor.py:186} INFO - Started process (PID=4487) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:23:48.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:23:48.748+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:23:48.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:23:48.764+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:23:48.843+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:23:48.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:23:48.858+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:23:48.858+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:23:48.760441+00:00, run_after=2025-09-13 00:23:48.760441+00:00
+[2025-09-12T00:23:48.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.132 seconds
+[2025-09-12T00:24:19.112+0000] {processor.py:186} INFO - Started process (PID=4496) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:24:19.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:24:19.116+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:24:19.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:24:19.131+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:24:19.216+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:24:19.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:24:19.231+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:24:19.231+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:24:19.127146+00:00, run_after=2025-09-13 00:24:19.127146+00:00
+[2025-09-12T00:24:19.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.144 seconds
+[2025-09-12T00:24:49.552+0000] {processor.py:186} INFO - Started process (PID=4505) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:24:49.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:24:49.555+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:24:49.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:24:49.571+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:24:49.649+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:24:49.649+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:24:49.664+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:24:49.663+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:24:49.567365+00:00, run_after=2025-09-13 00:24:49.567365+00:00
+[2025-09-12T00:24:49.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.135 seconds
+[2025-09-12T00:25:19.982+0000] {processor.py:186} INFO - Started process (PID=4514) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:25:19.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:25:19.985+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:25:19.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:25:20.011+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:25:20.099+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:25:20.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:25:20.116+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:25:20.116+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:25:20.006656+00:00, run_after=2025-09-13 00:25:20.006656+00:00
+[2025-09-12T00:25:20.138+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.164 seconds
+[2025-09-12T00:25:50.508+0000] {processor.py:186} INFO - Started process (PID=4523) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:25:50.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:25:50.513+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:25:50.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:25:50.545+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:25:50.626+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:25:50.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:25:50.643+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:25:50.642+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:25:50.541288+00:00, run_after=2025-09-13 00:25:50.541288+00:00
+[2025-09-12T00:25:50.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.155 seconds
+[2025-09-12T00:26:20.770+0000] {processor.py:186} INFO - Started process (PID=4531) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:26:20.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:26:20.774+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:26:20.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:26:20.790+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:26:20.877+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:26:20.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:26:20.893+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:26:20.893+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:26:20.786144+00:00, run_after=2025-09-13 00:26:20.786144+00:00
+[2025-09-12T00:26:20.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.145 seconds
+[2025-09-12T00:26:51.201+0000] {processor.py:186} INFO - Started process (PID=4539) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:26:51.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:26:51.205+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:26:51.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:26:51.221+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:26:51.304+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:26:51.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:26:51.319+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:26:51.318+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:26:51.217746+00:00, run_after=2025-09-13 00:26:51.217746+00:00
+[2025-09-12T00:26:51.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.141 seconds
+[2025-09-12T00:27:21.634+0000] {processor.py:186} INFO - Started process (PID=4548) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:27:21.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:27:21.637+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:27:21.636+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:27:21.654+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:27:21.734+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:27:21.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:27:21.750+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:27:21.749+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:27:21.650004+00:00, run_after=2025-09-13 00:27:21.650004+00:00
+[2025-09-12T00:27:21.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.138 seconds
+[2025-09-12T00:27:52.113+0000] {processor.py:186} INFO - Started process (PID=4557) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:27:52.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:27:52.119+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:27:52.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:27:52.161+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:27:52.240+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:27:52.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:27:52.255+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:27:52.255+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:27:52.156121+00:00, run_after=2025-09-13 00:27:52.156121+00:00
+[2025-09-12T00:27:52.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.165 seconds
+[2025-09-12T00:28:22.807+0000] {processor.py:186} INFO - Started process (PID=4566) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:28:22.808+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:28:22.812+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:28:22.811+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:28:22.829+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:28:22.909+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:28:22.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:28:22.924+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:28:22.923+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:28:22.825253+00:00, run_after=2025-09-13 00:28:22.825253+00:00
+[2025-09-12T00:28:22.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.135 seconds
+[2025-09-12T00:28:53.244+0000] {processor.py:186} INFO - Started process (PID=4575) to work on /opt/airflow/dags/dags.py
+[2025-09-12T00:28:53.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-09-12T00:28:53.247+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:28:53.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-09-12T00:28:53.262+0000] {processor.py:925} INFO - DAG(s) 'Daily_img_transfer' retrieved from /opt/airflow/dags/dags.py
+[2025-09-12T00:28:53.336+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:28:53.335+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-12T00:28:53.351+0000] {logging_mixin.py:190} INFO - [2025-09-12T00:28:53.351+0000] {dag.py:4180} INFO - Setting next_dagrun for Daily_img_transfer to 2025-09-12 00:28:53.258707+00:00, run_after=2025-09-13 00:28:53.258707+00:00
+[2025-09-12T00:28:53.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.127 seconds
