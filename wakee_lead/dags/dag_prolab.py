@@ -12,8 +12,9 @@ import cnn_lab
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2024, 1, 1),
-    'retries': 1
+    'start_date': datetime(2025, 1, 1),
+    'retries': 1,
+    'schedule_interval': "@weekly"
 }
 
 

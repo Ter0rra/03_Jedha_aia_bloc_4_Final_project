@@ -1,4 +1,2 @@
 .env
-*.log
 .pyc
-scheduler/lastest/

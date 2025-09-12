@@ -1,0 +1,21 @@
+[2025-09-12T08:27:08.764+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-09-12T08:27:08.781+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Daily_img_transfer.end_dag manual__2025-09-12T08:27:06.217172+00:00 [queued]>
+[2025-09-12T08:27:08.796+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Daily_img_transfer.end_dag manual__2025-09-12T08:27:06.217172+00:00 [queued]>
+[2025-09-12T08:27:08.799+0000] {taskinstance.py:2884} INFO - Starting attempt 1 of 1
+[2025-09-12T08:27:08.810+0000] {taskinstance.py:2907} INFO - Executing <Task(BashOperator): end_dag> on 2025-09-12 08:27:06.217172+00:00
+[2025-09-12T08:27:08.863+0000] {standard_task_runner.py:72} INFO - Started process 396 to run task
+[2025-09-12T08:27:08.865+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Daily_img_transfer', 'end_dag', 'manual__2025-09-12T08:27:06.217172+00:00', '--job-id', '127', '--raw', '--subdir', 'DAGS_FOLDER/dags.py', '--cfg-path', '/tmp/tmp1g425q6m']
+[2025-09-12T08:27:08.868+0000] {standard_task_runner.py:105} INFO - Job 127: Subtask end_dag
+[2025-09-12T08:27:08.904+0000] {task_command.py:467} INFO - Running <TaskInstance: Daily_img_transfer.end_dag manual__2025-09-12T08:27:06.217172+00:00 [running]> on host 3e0e53ef8921
+[2025-09-12T08:27:08.960+0000] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Daily_img_transfer' AIRFLOW_CTX_TASK_ID='end_dag' AIRFLOW_CTX_EXECUTION_DATE='2025-09-12T08:27:06.217172+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-12T08:27:06.217172+00:00'
+[2025-09-12T08:27:08.961+0000] {taskinstance.py:740} INFO - ::endgroup::
+[2025-09-12T08:27:08.969+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-09-12T08:27:08.970+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'End!'"]
+[2025-09-12T08:27:08.979+0000] {subprocess.py:99} INFO - Output:
+[2025-09-12T08:27:08.981+0000] {subprocess.py:106} INFO - End!
+[2025-09-12T08:27:08.981+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-09-12T08:27:08.998+0000] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2025-09-12T08:27:08.999+0000] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=Daily_img_transfer, task_id=end_dag, run_id=manual__2025-09-12T08:27:06.217172+00:00, execution_date=20250912T082706, start_date=20250912T082708, end_date=20250912T082708
+[2025-09-12T08:27:09.041+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-09-12T08:27:09.052+0000] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-12T08:27:09.054+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

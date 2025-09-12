@@ -6,7 +6,9 @@ from airflow.operators.bash_operator import BashOperator
 
 default_args = {
     "owner": "airflow",
-    "start_date": datetime.now(),
+    "start_date": datetime(2025, 1, 1),
+    'retries': 1,
+    'schedule_interval': "@daily"
 }
 
 
