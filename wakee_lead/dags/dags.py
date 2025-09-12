@@ -8,11 +8,11 @@ default_args = {
     "owner": "airflow",
     "start_date": datetime(2025, 1, 1),
     'retries': 1,
-    'schedule_interval': "@daily"
+    # 'schedule_interval': "@daily"
 }
 
 
-with DAG(dag_id="Daily_img_transfer", default_args=default_args, catchup=False) as dag:
+with DAG(dag_id="Daily_img_transfer", default_args=default_args, schedule_interval="@daily", catchup=False) as dag:
     start_dag = BashOperator(task_id="start_dag", bash_command="echo 'Start!'")
 
     move_images = BashOperator(task_id="move_images", bash_command='''

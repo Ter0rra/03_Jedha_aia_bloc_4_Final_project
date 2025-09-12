@@ -14,7 +14,7 @@ default_args = {
     'owner': 'airflow',
     'start_date': datetime(2025, 1, 1),
     'retries': 1,
-    'schedule_interval': "@weekly"
+    # 'schedule_interval': "@weekly"
 }
 
 
@@ -60,7 +60,7 @@ def label(proces_img):
     lab.to_csv('../data/labeled_data/labels.csv')
 
 
-with DAG(dag_id="Weekly_transformation", default_args=default_args, catchup=False) as dag:
+with DAG(dag_id="Weekly_transformation", default_args=default_args, schedule_interval="@weekly", catchup=False) as dag:
 
     start_dag = BashOperator(task_id="start_dag", bash_command="echo 'Start!'")
 
